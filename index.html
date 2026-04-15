@@ -1,11 +1,141 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Bryan Herger</title>
-  </head>
-  <body>
-    <h1>Welcome</h1>
-    <p>This is my GitHub Pages site.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bryan Herger @GitHub</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      margin-top: 2.5rem;
+      font-size: 1.5rem;
+    }
+
+    p {
+      margin-top: 0.75rem;
+    }
+
+    a {
+      color: #0969da;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.25rem;
+    }
+
+    .project {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 1.25rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    .project-icon {
+      font-size: 2rem;
+    }
+
+    .project h3 {
+      margin-top: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #ddd;
+      text-align: center;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Bryan Herger @GitHub</h1>
+
+      <p>
+        Principal solutions consultant and software engineer with a strong background in analytics,
+        data platforms, and applied machine learning. I work on open‑source and personal projects
+        spanning scientific software, developer tools, and web‑based applications.
+      </p>
+
+      <div class="links">
+        <a href="https://www.linkedin.com/in/bryanherger/" target="_blank" rel="noopener">
+          LinkedIn Profile
+        </a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Featured Projects</h2>
+
+      <div class="projects">
+        <div class="project">
+          <div class="project-icon">🎮</div>
+          <h3>Game Collection</h3>
+          <p>
+            A personal collection of web‑based and experimental games, exploring gameplay mechanics,
+            UI design, and lightweight client‑side architectures.
+          </p>
+          <a href="https://github.com/bryanherger/gamecollection" target="_blank" rel="noopener">
+            View repository →
+          </a>
+        </div>
+
+        <div class="project">
+          <div class="project-icon">⚛️</div>
+          <h3>XDrawChem</h3>
+          <p>
+            An open‑source, cross‑platform 2D chemical structure drawing application.
+            XDrawChem supports multiple chemical formats and integrates with OpenBabel
+            for cheminformatics workflows.
+          </p>
+          <a href="https://github.com/bryanherger/xdrawchem" target="_blank" rel="noopener">
+            View repository →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <a href="https://github.com/bryanherger?tab=repositories" target="_blank" rel="noopener">
+        See all projects →
+      </a>
+    </div>
+  </div>
+</body>
 </html>
